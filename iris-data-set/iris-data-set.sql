@@ -1,9 +1,9 @@
 USE memory.default;
 CREATE TABLE iris (
-  sepallengthcm decimal(2,1),
-  sepalwidthcm decimal(2,1),
-  petallengthcm decimal(2,1),
-  petalwidthcm decimal(2,1),
+  sepallengthcm real,
+  sepalwidthcm real,
+  petallengthcm real,
+  petalwidthcm real,
   species varchar(10)
 );
 INSERT INTO iris ( sepallengthcm, sepalwidthcm, petallengthcm, petalwidthcm, species )
