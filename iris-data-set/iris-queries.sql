@@ -1,5 +1,24 @@
 SELECT * FROM memory.default.iris;
 
+SELECT histogram(floor(petallengthcm)) FROM iris;
+
+SELECT floor(petallengthcm) k, count(*) v FROM iris GROUP BY 1 ORDER BY 2 DESC;
+
+SELECT map_agg(k, v) FROM (SELECT floor(petallengthcm) k, count(*) v FROM iris GROUP BY 1);
+
+SELECT multimap_agg(species, petallengthcm) FROM iris;
+
+SELECT histogram(floor(petallengthcm)) x FROM iris GROUP BY species;
+
+SELECT map_union(m)
+FROM (SELECT histogram(floor(petallengthcm)) m FROM iris GROUP BY species);
+
+
+SELECT species, 
+       AVG(petallengthcm), MAX(petallengthcm), MIN(petallengthcm) 
+FROM iris
+GROUP BY species
+
 -- Window functions
 
 SELECT avg(sepallengthcm) FROM memory.default.iris;
