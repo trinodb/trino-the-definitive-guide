@@ -10,7 +10,7 @@ OReilly.
   coordinator and workers in a cluster
 * [flights-data-set](./flights-data-set): DDL, queries and tips for the flights
   data set
-* [iris-data-set](.iris-data-set): DDL, queries and tips for the flights
+* [iris-data-set](./iris-data-set): DDL, queries and tips for the iris
   data set
 * [single-installation](./single-installation): sample config files for single node Presto installation, coordinator and worker as same node
 * [tpch](./tpch): queries for the tpch data source
