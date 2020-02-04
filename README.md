@@ -31,8 +31,10 @@ Presto project:
 
 Blogs and specific blog posts (in no particular order):
 
-* Starburstdata: ttps://www.starburstdata.com/category/technical-blog/
+* Starburstdata ttps://www.starburstdata.com/category/technical-blog/
 * Presto Summit NYC 2019 Recap https://www.starburstdata.com/technical-blog/nyc-presto-summit-recap/
 * Pure Storage https://medium.com/@joshua_robinson/presto-powered-s3-data-warehouse-on-kubernetes-aea89d2f40e8
 * Lyft https://eng.lyft.com/presto-infrastructure-at-lyft-b10adb9db01
 * Pinterest https://medium.com/pinterest-engineering/presto-at-pinterest-a8bda7515e52
+* Arm Treasure Data https://www.slideshare.net/taroleo/presto-at-arm-treasure-data-2019-updates
+* Wayfair https://www.slideshare.net/kbajda/presto-sql-at-wayfair-meetup-presentation?qid=8c20be5b-ea47-4ef7-a2db-29fe61141180&v=&b=&from_search=2
