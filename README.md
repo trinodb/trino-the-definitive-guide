@@ -38,3 +38,6 @@ Blogs and specific blog posts (in no particular order):
 * Pinterest https://medium.com/pinterest-engineering/presto-at-pinterest-a8bda7515e52
 * Arm Treasure Data https://www.slideshare.net/taroleo/presto-at-arm-treasure-data-2019-updates
 * Wayfair https://www.slideshare.net/kbajda/presto-sql-at-wayfair-meetup-presentation?qid=8c20be5b-ea47-4ef7-a2db-29fe61141180&v=&b=&from_search=2
+* WalmartLabs https://medium.com/walmartlabs/presto-on-google-cloud-platform-d3c2187c4880
+* WalmartLabs https://medium.com/walmartlabs/exploring-presto-and-zeppelin-for-fast-data-analytics-and-visualization-9cb4dca91c3d
+* https://tech.marksblogg.com/50-node-presto-cluster-dataproc.html
