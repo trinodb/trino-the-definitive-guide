@@ -8,17 +8,17 @@ OReilly.
 
 * [cluster-installation](./cluster-installation): sample config files for
   coordinator and workers in a cluster
-* [flights-data-set](./flights-data-set): DDL, queries and tips for the flights
+* [flight-data-set](./flight-data-set): DDL, queries and tips for the flights
   data set
 * [iris-data-set](./iris-data-set): DDL, queries and tips for the iris
   data set
 * [single-installation](./single-installation): sample config files for single node Presto installation, coordinator and worker as same node
 * [tpch](./tpch): queries for the tpch data source
 
-## Resources and Links
+## Resources
 
-Following are a bunch of resources and links used in the book and as pointers
-for the readers to further information.
+Following are a bunch of resources used in the book and as pointers for the
+readers to further information.
 
 Presto project:
 
@@ -28,6 +28,8 @@ Presto project:
 * https://github.com/prestosql
 * https://prestosql.slack.com
 * https://stackoverflow.com/questions/tagged/presto
+
+## Links
 
 Blogs and specific blog posts (in no particular order):
 
