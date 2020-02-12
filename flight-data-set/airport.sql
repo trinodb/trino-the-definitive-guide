@@ -1,4 +1,4 @@
-CREATE TABLE airport (
+CREATE TABLE airline.airport (
     code character(3) NOT NULL,
     name character varying(55) NOT NULL,
     city character varying(65) NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE airport (
     tz double precision
 );
 
-INSERT INTO airport ( code, name, city, market, country, state, lat, long, tz )
+INSERT INTO airline.airport ( code, name, city, market, country, state, lat, long, tz )
 VALUES
 ( '02A','Afognak Lake Airport','Afognak Lake, AK','Afognak Lake, AK','US','AK',58.10944444,-152.9066667,null ),
 ( '03A','Bear Creek Mining Strip','Granite Mountain, AK','Granite Mountain, AK','US','AK',65.54805556,-161.0716667,null ),
