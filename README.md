@@ -1,8 +1,8 @@
 # Presto: The Definitive Guide
 
-This repository contains helpful resources for the book Presto: The Definitive
-Guide written by Matt Fuller, Manfred Moser and Martin Traverso and published by
-OReilly.
+This repository contains helpful resources for the book __Presto: The Definitive
+Guide__ written by Matt Fuller (@mattsfuller), Manfred Moser (@mosabua) and
+Martin Traverso (@martint) and published by OReilly.
 
 ## Contents
 
