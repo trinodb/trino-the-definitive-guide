@@ -4,7 +4,7 @@ This repository contains helpful resources for the book __Presto: The Definitive
 Guide__ written by Matt Fuller ([@mattsfuller](https://github.com/mattsfuller)),
 Manfred Moser ([@mosabua](https://github.com/mosabua)) and Martin Traverso
 ([@martint](https://github.com/martint)) and published by
-[OReilly](http://shop.oreilly.com/product/0636920206880.do).
+[O'Reilly Media](http://shop.oreilly.com/product/0636920206880.do).
 
 ## Contents
 
