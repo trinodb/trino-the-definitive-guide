@@ -1,12 +1,13 @@
 USE memory.default;
 CREATE TABLE iris (
-  sepallengthcm real,
-  sepalwidthcm real,
-  petallengthcm real,
-  petalwidthcm real,
+  sepal_length_cm real,
+  sepal_width_cm real,
+  petal_length_cm real,
+  petal_width_cm real,
   species varchar(10)
 );
-INSERT INTO iris ( sepallengthcm, sepalwidthcm, petallengthcm, petalwidthcm, species )
+INSERT INTO iris ( sepal_length_cm, sepal_width_cm, petal_length_cm,
+  petal_width_cm, species )
 VALUES
     ( 5.1,  3.5 ,  1.4 ,  0.2 , 'setosa' ),
     ( 4.9 ,  3.0 ,  1.4 ,  0.2 , 'setosa' ),
