@@ -14,8 +14,9 @@ Manfred Moser ([@mosabua](https://github.com/mosabua)) and Martin Traverso
   data set
 * [iris-data-set](./iris-data-set): DDL, queries and tips for the iris
   data set
-* [single-installation](./single-installation): sample config files for single node Presto installation, coordinator and worker as same node
-* [tpch](./tpch): queries for the tpch data source
+* [single-installation](./single-installation): sample config files for single
+  node Presto installation, coordinator and worker as same node
+* [tpch](./tpch): queries for the tpch catalog
 
 ## Resources
 
@@ -33,9 +34,9 @@ Presto project:
 
 ## Links
 
-Blogs and specific blog posts (in no particular order):
+Blogs and specific blog posts (in no particular order)
 
-* Starburstdata ttps://www.starburstdata.com/category/technical-blog/
+* Starburstdata https://www.starburstdata.com/category/technical-blog/
 * Presto Summit NYC 2019 Recap https://www.starburstdata.com/technical-blog/nyc-presto-summit-recap/
 * Pure Storage https://medium.com/@joshua_robinson/presto-powered-s3-data-warehouse-on-kubernetes-aea89d2f40e8
 * Lyft https://eng.lyft.com/presto-infrastructure-at-lyft-b10adb9db01
