@@ -166,15 +166,15 @@ ORDER BY
 
 SELECT name
 FROM tpch.tiny.nation
-WHERE regionkey IN (SELECT regionkey FROM tpch.tiny.region)
+WHERE regionkey IN (SELECT regionkey FROM tpch.tiny.region);
 
 SELECT name
 FROM nation
-WHERE regionkey = ANY (SELECT regionkey FROM region)
+WHERE regionkey = ANY (SELECT regionkey FROM region);
 
 SELECT name
 FROM nation
-WHERE regionkey IN (SELECT regionkey FROM region)
+WHERE regionkey IN (SELECT regionkey FROM region);
 
 SELECT name FROM nation;
 
