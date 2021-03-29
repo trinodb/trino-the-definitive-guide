@@ -23,14 +23,14 @@ Manfred Moser ([@mosabua](https://github.com/mosabua)) and Martin Traverso
 Following are a bunch of resources used in the book and as pointers for the
 readers to further information.
 
-Presto project:
+Trino project:
 
-* https://prestosql.io
-* https://prestosql.io/docs/current/
-* https://prestosql.io/blog/
-* https://github.com/prestosql
-* https://prestosql.slack.com
-* https://stackoverflow.com/questions/tagged/presto
+* https://trino.io
+* https://trino.io/docs/current/
+* https://trino.io/blog/
+* https://github.com/trinodb
+* https://trinodb.slack.com
+* https://stackoverflow.com/questions/tagged/trino
 
 ## Links
 
