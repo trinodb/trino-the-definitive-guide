@@ -36,8 +36,8 @@ Trino project:
 
 Blogs and specific blog posts (in no particular order)
 
-* Starburstdata https://www.starburstdata.com/category/technical-blog/
-* Presto Summit NYC 2019 Recap https://www.starburstdata.com/technical-blog/nyc-presto-summit-recap/
+* Starburstdata https://blog.starburstdata.com/
+* Presto Summit NYC 2019 Recap https://blog.starburstdata.com/technical-blog/nyc-presto-summit-recap
 * Pure Storage https://medium.com/@joshua_robinson/presto-powered-s3-data-warehouse-on-kubernetes-aea89d2f40e8
 * Lyft https://eng.lyft.com/presto-infrastructure-at-lyft-b10adb9db01
 * Pinterest https://medium.com/pinterest-engineering/presto-at-pinterest-a8bda7515e52
