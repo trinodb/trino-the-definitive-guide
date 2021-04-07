@@ -1,7 +1,8 @@
-# Presto: The Definitive Guide
+# Trino: The Definitive Guide
 
-This repository contains helpful resources for the book __Presto: The Definitive
-Guide__ written by Matt Fuller ([@mattsfuller](https://github.com/mattsfuller)),
+This repository contains helpful resources for the book __Trino: The Definitive
+Guide__, formerly __Presto: The Definitive
+Guide__, written by Matt Fuller ([@mattsfuller](https://github.com/mattsfuller)),
 Manfred Moser ([@mosabua](https://github.com/mosabua)) and Martin Traverso
 ([@martint](https://github.com/martint)) and published by
 [O'Reilly Media](http://shop.oreilly.com/product/0636920206880.do).
