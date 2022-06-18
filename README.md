@@ -7,6 +7,12 @@ Manfred Moser ([@mosabua](https://github.com/mosabua)) and Martin Traverso
 ([@martint](https://github.com/martint)) and published by
 [O'Reilly Media](http://shop.oreilly.com/product/0636920206880.do).
 
+The following branches are available:
+
+* `master` branch for the second edition, based on Trino 386+
+* `first-trino` branch for the first revision, based on Trino xxx
+* `first-prestosql` branch for the first edition, based on PrestoSQL xxx
+
 ## Contents
 
 * [cluster-installation](./cluster-installation): sample config files for
