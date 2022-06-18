@@ -2,9 +2,9 @@ SHOW SCHEMAS FROM tpch;
 
 SHOW SCHEMAS IN tpch LIKE '%3%';
 
-CREATE SCHEMA blackhole.test;
-CREATE TABLE blackhole.test.orders AS SELECT * from tpch.tiny.orders;
-INSERT INTO blackhole.test.orders SELECT * FROM tpch.sf3.orders;
+CREATE SCHEMA abyss.test;
+CREATE TABLE abyss.test.orders AS SELECT * from tpch.tiny.orders;
+INSERT INTO abyss.test.orders SELECT * FROM tpch.sf3.orders;
 
 DESCRIBE tpch.tiny.nation;
 
@@ -73,6 +73,39 @@ SELECT mktsegment,
 FROM tpch.tiny.customer
 GROUP BY ROLLUP (mktsegment)
 ORDER BY id, total_acctbal;
+
+SELECT nation.name AS nation, region.name AS region
+FROM tpch.sf1.region, tpch.sf1.nation
+WHERE region.regionkey = nation.regionkey
+AND region.name LIKE 'AFRICA'
+ORDER by nation;
+
+SELECT nation.name || ' / ' || region.name AS Location
+FROM tpch.sf1.region JOIN tpch.sf1.nation
+ON region.regionkey = nation.regionkey
+AND region.name LIKE 'AFRICA'
+ORDER BY Location;
+
+SELECT
+    n.name AS nation_name,
+    avg(extendedprice) as avg_price
+FROM nation n, orders o, customer c, lineitem l
+WHERE n.nationkey = c.nationkey
+  AND c.custkey = o.custkey
+  AND o.orderkey = l.orderkey
+GROUP BY n.nationkey, n.name
+ORDER BY nation_name;
+
+SELECT
+    n.name AS nation_name,
+    avg(extendedprice) as avg_price
+FROM nation n, orders o, customer c, lineitem l
+WHERE n.nationkey = c.nationkey
+  AND c.custkey = o.custkey
+  AND o.orderkey = l.orderkey
+  AND l.partkey = 638
+GROUP BY n.nationkey, n.name
+ORDER BY nation_name;
 
 SELECT mktsegment,
        round(sum(acctbal), 2) AS total_acctbal,
