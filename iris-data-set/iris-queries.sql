@@ -1,9 +1,9 @@
 -- Test without session catalog and schema set
 SELECT *
-FROM memory.default.iris;
+FROM brain.default.iris;
 
 -- Set default
-USE memory.default;
+USE brain.default;
 
 SELECT histogram( floor(petal_length_cm) )
 FROM iris;
