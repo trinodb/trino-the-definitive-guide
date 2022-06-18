@@ -10,7 +10,7 @@ Manfred Moser ([@mosabua](https://github.com/mosabua)) and Martin Traverso
 The following branches are available:
 
 * `master` branch for the second edition, based on Trino 386+
-* `first-trino` branch for the first revision, based on Trino xxx
+* `first-trino` branch for the first revision, based on Trino 354
 * `first-prestosql` branch for the first edition, based on PrestoSQL xxx
 
 ## Contents
