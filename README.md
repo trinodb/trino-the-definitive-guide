@@ -35,8 +35,9 @@ Trino project:
 * https://trino.io
 * https://trino.io/docs/current/
 * https://trino.io/blog/
+* https://trino.io/broadcast/
 * https://github.com/trinodb
-* https://trinodb.slack.com
+* https://trino.io/slack.html for sign up to slack at https://trinodb.slack.com
 * https://stackoverflow.com/questions/tagged/trino
 
 ## Links
