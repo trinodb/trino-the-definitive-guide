@@ -1,4 +1,4 @@
-USE memory.default;
+USE brain.default;
 CREATE TABLE iris (
   sepal_length_cm real,
   sepal_width_cm real,

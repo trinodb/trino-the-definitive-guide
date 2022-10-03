@@ -7,6 +7,12 @@ Manfred Moser ([@mosabua](https://github.com/mosabua)) and Martin Traverso
 ([@martint](https://github.com/martint)) and published by
 [O'Reilly Media](http://shop.oreilly.com/product/0636920206880.do).
 
+The following branches are available:
+
+* `master` branch for the second edition, based on Trino 392
+* `first-edition-trino` branch for the first revision, based on Trino 354
+* `first-edition-prestosql` branch for the first edition, based on PrestoSQL 330
+
 ## Contents
 
 * [cluster-installation](./cluster-installation): sample config files for
@@ -29,8 +35,9 @@ Trino project:
 * https://trino.io
 * https://trino.io/docs/current/
 * https://trino.io/blog/
+* https://trino.io/broadcast/
 * https://github.com/trinodb
-* https://trinodb.slack.com
+* https://trino.io/slack.html for sign up to slack at https://trinodb.slack.com
 * https://stackoverflow.com/questions/tagged/trino
 
 ## Links
