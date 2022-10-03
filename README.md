@@ -32,14 +32,15 @@ readers to further information.
 
 Trino project:
 
-* https://trino.io
-* https://trino.io/docs/current/
-* https://trino.io/blog/
-* https://trino.io/broadcast/
-* https://github.com/trinodb
-* https://trino.io/slack.html for sign up to slack at https://trinodb.slack.com
-* https://stackoverflow.com/questions/tagged/trino
-
+* Trino website at https://trino.io
+* Trino documentation at https://trino.io/docs/current/
+* Trino blog at https://trino.io/blog/
+* Trino Community Broadcast episodes with audio and video at https://trino.io/broadcast/
+* GitHub organization with source code https://github.com/trinodb
+* Trino community chat https://trino.io/slack.html for sign up to slack at https://trinodb.slack.com
+* Trino tag on stackoverflow at https://stackoverflow.com/questions/tagged/trino
+* Trino tag on dba stackexchange at https://dba.stackexchange.com/questions/tagged/trino
+* Trino Forum at https://www.trinoforum.org/
 ## Links
 
 Blogs and specific blog posts (in no particular order)
