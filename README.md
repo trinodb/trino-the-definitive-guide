@@ -11,7 +11,7 @@ The following branches are available:
 
 * `master` branch for the second edition, based on Trino 392
 * `first-edition-trino` branch for the first revision, based on Trino 354
-* `first-edition-prestosql` branch for the first edition, based on PrestoSQL xxx
+* `first-edition-prestosql` branch for the first edition, based on PrestoSQL 330
 
 ## Contents
 
